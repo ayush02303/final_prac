@@ -13,6 +13,8 @@ import TimeShow from './TimeShow'
 import CleanUp from './CleanUp'
 import DocTitle from './DocTitle'
 import Pokemon from './Pokemon'
+import Context from './Context'
+import Home from './Home'
 
 
 
@@ -25,9 +27,9 @@ function App() {
   
 
   return (
-    <>
-   <Pokemon/>
-    </>
+   <Context>
+    <Home/>
+   </Context>
   )
 }
 
