@@ -15,6 +15,7 @@ import DocTitle from './DocTitle'
 import Pokemon from './Pokemon'
 import Context from './Context'
 import Home from './Home'
+import DarkLightModeSwitch, { DarkLight } from './DarkLightModeSwitch'
 
 
 
@@ -27,9 +28,9 @@ function App() {
   
 
   return (
-   <Context>
-    <Home/>
-   </Context>
+  <DarkLightModeSwitch>
+    <DarkLight/>
+  </DarkLightModeSwitch>
   )
 }
 
