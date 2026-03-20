@@ -12,6 +12,7 @@ import LiftingtheStateUp from './LiftingtheStateUp'
 import TimeShow from './TimeShow'
 import CleanUp from './CleanUp'
 import DocTitle from './DocTitle'
+import Pokemon from './Pokemon'
 
 
 
@@ -25,7 +26,7 @@ function App() {
 
   return (
     <>
-   <DocTitle/>
+   <Pokemon/>
     </>
   )
 }
