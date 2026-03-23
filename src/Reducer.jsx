@@ -17,7 +17,7 @@ const Reducer = () => {
                 Increase
             </button>
             <button onClick={() => dispatch({ type: "DECREMENT" })}>
-                Decrease
+                Decrease the count 
             </button>
         </div>
     )
