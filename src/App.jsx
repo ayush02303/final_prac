@@ -16,20 +16,29 @@ import Context from './Context'
 import Home from './Home'
 import DarkLightModeSwitch, { DarkLight } from './DarkLightModeSwitch'
 import Reducer from './Reducer'
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
 
 
 
+const router = createBrowserRouter([
+  {
+    path : "/", 
+    element : <First/>
+  }, 
 
+  {
+    path : "/Final", 
+    element : <Final/>
+  }
+])
 
 
 
 function App() {
   
 
-  return (
-  <Reducer/>
-  )
+  return <RouterProvider router={router}/>
 }
 
 export default App
