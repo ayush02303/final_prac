@@ -17,28 +17,36 @@ import Home from './Home'
 import DarkLightModeSwitch, { DarkLight } from './DarkLightModeSwitch'
 import Reducer from './Reducer'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import Movie from './Movie'
+import { useEffect } from 'react'
+import { getPost } from './api/PostApi'
+import Posts from '../components /Posts'
 
 
 
 
-const router = createBrowserRouter([
-  {
-    path : "/", 
-    element : <First/>
-  }, 
+// const router = createBrowserRouter([
+//   {
+//     path : "/", 
+//     element : <First/>
+//   }, 
 
-  {
-    path : "/Final", 
-    element : <Final/>
-  }
-])
+//   {
+//     path : "/Final", 
+//     element : <Final/>
+//   }
+// ])
 
 
 
 function App() {
-  
 
-  return <RouterProvider router={router}/>
+
+  return(
+    <>
+    <Posts/>
+    </>
+  )
 }
 
 export default App
