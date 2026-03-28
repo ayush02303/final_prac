@@ -21,6 +21,7 @@ import Movie from './Movie'
 import { useEffect } from 'react'
 import { getPost } from './api/PostApi'
 import Posts from '../components /Posts'
+import Routing from '../components /Routing'
 
 
 
@@ -44,7 +45,7 @@ function App() {
 
   return(
     <>
-    <Posts/>
+    <h1>App functioning</h1>
     </>
   )
 }
