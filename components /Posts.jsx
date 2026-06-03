@@ -13,7 +13,7 @@ const Posts = () => {
         setData(res.data)
     
       }
-
+      // this is a sample comment
 
   useEffect(()=>{
     getPostData()
