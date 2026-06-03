@@ -45,7 +45,7 @@ function App() {
 
   return(
     <>
-    <h1>App functioning</h1>
+   <Posts/>
     </>
   )
 }
