@@ -10,6 +10,7 @@ const Posts = () => {
     
         const res = await getPost()
         console.log(res.data)
+        console.log("june 9th")
         setData(res.data)
     
       }
