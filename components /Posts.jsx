@@ -10,7 +10,7 @@ const Posts = () => {
     
         const res = await getPost()
         console.log(res.data)
-        console.log("june 9th")
+        console.log("june 10th")
         setData(res.data)
     
       }
