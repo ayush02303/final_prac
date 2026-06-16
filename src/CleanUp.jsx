@@ -7,6 +7,7 @@ const CleanUp = () => {
     useEffect( ()=>{
         const Interval = setInterval( ()=>{
             setNum( prev => prev+1)
+            console.log("hii")
 
         }, 1000)
 
