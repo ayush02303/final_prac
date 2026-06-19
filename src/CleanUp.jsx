@@ -8,6 +8,7 @@ const CleanUp = () => {
         const Interval = setInterval( ()=>{
             setNum( prev => prev+1)
             console.log("hii again too")
+            console.log("say")
 
 
         }, 1000)
