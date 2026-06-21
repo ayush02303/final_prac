@@ -9,6 +9,7 @@ const CleanUp = () => {
             setNum( prev => prev+1)
             console.log("hii again too")
             console.log("say")
+            console.log("day1")
 
 
         }, 1000)
