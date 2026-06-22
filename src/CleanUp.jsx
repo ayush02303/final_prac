@@ -10,6 +10,7 @@ const CleanUp = () => {
             console.log("hii again too")
             console.log("say")
             console.log("day1")
+            console.log("day2")
 
 
         }, 1000)
